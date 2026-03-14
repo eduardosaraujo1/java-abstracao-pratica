@@ -36,8 +36,8 @@ public class Programador {
     }
     public void completarTask() {
        System.out.println("Iniciando task...");
-       escreverCódigo();
-       debugarCódigo();
+       this.escreverCodigo();
+       this.debugarCodigo();
        System.out.println("Task concluída com sucesso");
     }
 }

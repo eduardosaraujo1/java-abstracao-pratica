@@ -17,7 +17,7 @@ public class Arquiteto {
 	public String rnp;
 	public String cau;
 	public String especialidade;
-	public String[] histórico_projetos;
+	public String[] historico_projetos;
     
     public void planejarProjetos() {
         System.out.println("Planejando novo projeto.");
