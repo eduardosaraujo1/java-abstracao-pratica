@@ -23,6 +23,28 @@ public class Main {
 		advogado.analisar_processo();
 		advogado2.defender_cliente();
 		// Arquiteto
+		Arquiteto arquiteto = new Arquiteto();
+		arquiteto.nome = "Carlos Eduardo Martins";
+		arquiteto.rnp = "1234567890";
+		arquiteto.cau = "A12345-6";
+		arquiteto.especialidade = "Arquitetura Sustentável";
+		arquiteto.historico_projetos = new String[]{
+		    "Projeto Residencial EcoVila - 2022",
+		    "Centro Cultural Verde Urbano - 2023"
+		};
+
+		Arquiteto arquiteto2 = new Arquiteto();
+		arquiteto2.nome = "Fernanda Alves Rocha";
+		arquiteto2.rnp = "0987654321";
+		arquiteto2.cau = "A54321-0";
+		arquiteto2.especialidade = "Urbanismo e Planejamento";
+		arquiteto2.historico_projetos = new String[]{
+		    "Plano Diretor Bairro Nova Esperança - 2021",
+		    "Requalificação da Praça Central - 2024"
+		};
+
+		arquiteto.desenharPlanos();
+		arquiteto2.definirMateriais();
 				
 		// Atleta
 				
