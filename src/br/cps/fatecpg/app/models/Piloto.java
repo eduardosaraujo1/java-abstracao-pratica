@@ -14,5 +14,28 @@ package br.cps.fatecpg.app.models;
 //-ajustar_rota()
 
 public class Piloto {
-
+    //ATRIBUTOS
+    public String nome;
+    public int idade;
+    public String licenca_voo;
+    public int horas_de_voo;
+    public String companhia_aerea;
+    public String aeronave_atual;
+    //MÉTODOS
+    public void decolar() {
+       System.out.println("Decolando...");
+       System.out.println("Decolagem concluída com sucesso.");
+    }
+    public void aterrissar() {
+       System.out.println("Aterrissando...");
+       System.out.println("Aterrissagem concluída com sucesso.");
+    }
+    public void comunicar_torre() {
+       System.out.println("Iniciando comunicação com torre...");
+       System.out.println("Comunicação concluída com sucesso.");
+    }
+    public void ajustar_rota() {
+       System.out.println("Ajustando rota...");
+       System.out.println("Rota ajustada com sucesso.");
+    }
 }

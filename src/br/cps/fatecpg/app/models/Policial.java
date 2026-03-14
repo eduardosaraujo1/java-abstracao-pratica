@@ -12,5 +12,23 @@ package br.cps.fatecpg.app.models;
 //-registrar_ocorrencia()
 
 public class Policial {
-
+    //ATRIBUTOS 
+    public String nome;
+    public int idade;
+    public String patente;
+    public String arma;
+    public int anos_de_servico;
+    //MÉTODOS
+    public void prender_suspeito() {
+    System.out.println("Realizando prisão...");
+    System.out.println("Prisão realizada com sucesso.");
+    }
+    public void patrulhar() {
+    System.out.println("Patrulhando...");
+    System.out.println("Patrulha realizada com sucesso.");
+    }
+    public void registrar_ocorrencia() {
+    System.out.println("Registrando ocorrência...");
+    System.out.println("Ocorrência registrada com sucesso.");
+    }
 }
