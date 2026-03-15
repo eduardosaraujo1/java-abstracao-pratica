@@ -26,15 +26,15 @@ public class Advogado {
 		System.out.println("Peticionando...");
 		System.out.println("Petição realizada com êxito.");
 	}
-	public void defender_cliente() {
+	public void defenderCliente() {
 		System.out.println("Realizando defesa...");
 		System.out.println("Defesa realizada com êxito.");
 	}
-	public void analisar_processo() {
+	public void analisarProcesso() {
 		System.out.println("Analisando processo...");
 		System.out.println("Processo analisado com êxito.");
 	}
-	public void participar_audiencia() {
+	public void participarAudiencia() {
 		System.out.println("Participando de audiencia...");
 		System.out.println("Audiencia participada com êxito!");
 	}

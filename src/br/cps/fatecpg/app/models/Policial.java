@@ -19,7 +19,7 @@ public class Policial {
     public String arma;
     public int anos_de_servico;
     //MÉTODOS
-    public void prender_suspeito() {
+    public void prenderSuspeito() {
     System.out.println("Realizando prisão...");
     System.out.println("Prisão realizada com sucesso.");
     }
@@ -27,7 +27,7 @@ public class Policial {
     System.out.println("Patrulhando...");
     System.out.println("Patrulha realizada com sucesso.");
     }
-    public void registrar_ocorrencia() {
+    public void registrarOcorrencia() {
     System.out.println("Registrando ocorrência...");
     System.out.println("Ocorrência registrada com sucesso.");
     }

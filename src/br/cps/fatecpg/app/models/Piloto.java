@@ -30,7 +30,7 @@ public class Piloto {
        System.out.println("Aterrissando...");
        System.out.println("Aterrissagem concluída com sucesso.");
     }
-    public void comunicar_torre() {
+    public void comunicarTorre() {
        System.out.println("Iniciando comunicação com torre...");
        System.out.println("Comunicação concluída com sucesso.");
     }

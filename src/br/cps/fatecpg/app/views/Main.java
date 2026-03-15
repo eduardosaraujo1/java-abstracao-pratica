@@ -12,6 +12,7 @@ public class Main {
 		advogado.idade = 32;
 		advogado.nome = "Clóvis";
 		advogado.numero_oab = "OAB/SP 123456";
+		
 		Advogado advogado2 = new Advogado();
 		advogado2.casos_ativos = new String[]{"Defesa Google Monopólio"};
 		advogado.escritorio = "Avenida DEF, 64";
@@ -20,8 +21,9 @@ public class Main {
 		advogado.nome = "Antônio";
 		advogado.numero_oab = "OAB/SP 987654";
 		
-		advogado.analisar_processo();
-		advogado2.defender_cliente();
+		advogado.analisarProcesso();
+		advogado2.defenderCliente();
+		
 		// Arquiteto
 		Arquiteto arquiteto = new Arquiteto();
 		arquiteto.nome = "Carlos Eduardo Martins";
@@ -47,6 +49,11 @@ public class Main {
 		arquiteto2.definirMateriais();
 				
 		// Atleta
+		Atleta atleta = new Atleta();
+		Atleta atleta2 = new Atleta();
+		
+		atleta.cumprirContrato();
+		atleta2.cuidarSaude();
 				
 		// Ator
 		Ator ator = new Ator();
@@ -63,7 +70,13 @@ public class Main {
 		
 		ator.chorar();
 		ator2.falar("Do not go gentle into that good night.");
+		
 		// Bombeiro
+		Bombeiro bombeiro = new Bombeiro();
+		Bombeiro bombeiro2 = new Bombeiro();
+		
+		bombeiro.apagarIncendio();
+		bombeiro2.dirigirCaminhao();
 		
 		// Cantor
 		
