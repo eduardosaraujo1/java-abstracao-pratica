@@ -166,7 +166,6 @@ public class Main {
 
 	public static void exemploCantor() {
 		// Cantor
-        // TODO: A partir daqui, colocar um atributo aleatório em exibição
 		Cantor cantor = new Cantor();
 		cantor.nome = "Lucas Freitas";
 		cantor.generos = new String[]{"Pop", "MPB"};
