@@ -34,7 +34,7 @@ public class Piloto {
        System.out.println("Iniciando comunicação com torre...");
        System.out.println("Comunicação concluída com sucesso.");
     }
-    public void ajustar_rota() {
+    public void ajustarRota() {
        System.out.println("Ajustando rota...");
        System.out.println("Rota ajustada com sucesso.");
     }

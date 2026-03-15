@@ -73,40 +73,135 @@ public class Main {
 		
 		// Bombeiro
 		Bombeiro bombeiro = new Bombeiro();
+	    //public String nome;
+	    //public int idade;
+	    //public String especialidade;
+	    //public int anos_de_servico;
+	    //public String quartel_bombeiros;
 		Bombeiro bombeiro2 = new Bombeiro();
+	    //public String nome;
+	    //public int idade;
+	    //public String especialidade;
+	    //public int anos_de_servico;
+	    //public String quartel_bombeiros;
 		
 		bombeiro.apagarIncendio();
 		bombeiro2.dirigirCaminhao();
 		
 		// Cantor
+		Cantor cantor = new Cantor();
+	    //public String nome;
+	    //public String[] generos;
+	    //public String discografia;
+	    //public String[] instrumentos;
+	    //public boolean em_banda;
+		Cantor cantor2 = new Cantor();
+	    //public String nome;
+	    //public String[] generos;
+	    //public String discografia;
+	    //public String[] instrumentos;
+	    //public boolean em_banda;
+		
+		cantor.darAutografo();
+		cantor2.fazerShow();
 		
 		// Cientista
+		Cientista cientista = new Cientista();
+		Cientista cientista2 = new Cientista();
+		
+		cientista.coletarAmostras();
+		cientista2.realizarPesquisar();
 		
 		// Engenheiro
+		Engenheiro engenheiro = new Engenheiro();
+		Engenheiro engenheiro2 = new Engenheiro();
+		
+		engenheiro.fiscalizarProjeto();
+		engenheiro2.emitirLaudoTecnico();
 		
 		// Estudante
+		Estudante estudante = new Estudante();
+		Estudante estudante2 = new Estudante();
+		
+		estudante.escrever("Classe: modelo lógico conceitual que representa uma entidade do mundo real.");
+		estudante2.conversar();
 		
 		// Fotografo
+		Fotografo fotografo = new Fotografo();
+		Fotografo fotografo2 = new Fotografo();
+		
+		fotografo.calcularOrcamento();
+		fotografo2.editarFotos();
 		
 		// Jornalista
+		Jornalista jornalista = new Jornalista();
+		Jornalista jornalista2 = new Jornalista();
+		
+		jornalista.apurarNoticias();
+		jornalista2.entrevistarFontes();
 		
 		// Juiz
+		Juiz juiz = new Juiz();
+		Juiz juiz2 = new Juiz();
+		
+		juiz.presidirJulgamento();
+		juiz2.analisarProvas();
 		
 		// Medico
+		Medico medico = new Medico();
+		Medico medico2 = new Medico();
+		
+		medico.diagnosticar();
+		medico2.requisitarExame();
 		
 		// Motorista
+		Motorista motorista = new Motorista();
+		Motorista motorista2 = new Motorista();
+		
+		motorista.abastecer(16);
+		motorista2.estacionar();
 		
 		// Piloto
+		Piloto piloto = new Piloto();
+		Piloto piloto2 = new Piloto();
+		
+		piloto.ajustarRota();
+		piloto2.comunicarTorre();
 		
 		// Pintor
+		Pintor pintor = new Pintor();
+		Pintor pintor2 = new Pintor();
+		
+		pintor.pintar();
+		pintor2.publicarArte();
 		
 		// Policial
+		Policial policial = new Policial();
+		Policial policial2 = new Policial();
+		
+		policial.prenderSuspeito();
+		policial2.patrulhar();
 		
 		// Politico
+		Politico politico = new Politico();
+		Politico politico2 = new Politico();
+		
+		politico.atenderCidadao("Eduardo Soares e Araújo");
+		politico2.participarSessao();
 		
 		// Professor
+		Professor professor = new Professor();
+		Professor professor2 = new Professor();
+		
+		professor.prepararAula();
+		professor2.prepararProva();
 		
 		// Programador
+		Programador programador = new Programador();
+		Programador programador2 = new Programador();
+		
+		programador.escreverCodigo();
+		programador2.completarTask();
 		
 	}
 
