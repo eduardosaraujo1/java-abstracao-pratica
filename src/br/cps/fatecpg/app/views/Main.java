@@ -259,19 +259,19 @@ public class Main {
 		// Estudante
 		Estudante estudante = new Estudante();
 		estudante.nome = "Lucas Andrade";
-		estudante.instutuicao_ensino = "FATEC";
+		estudante.instituicao_ensino = "FATEC";
 		estudante.turma = "ADS 3º semestre";
 		estudante.materia_preferida = "Técnicas de Programação";
 		estudante.data_nascimento = "2004-08-15";
 
 		Estudante estudante2 = new Estudante();
 		estudante2.nome = "Beatriz Lima";
-		estudante2.instutuicao_ensino = "FATEC";
+		estudante2.instituicao_ensino = "FATEC";
 		estudante2.turma = "ADS 2º semestre";
 		estudante2.materia_preferida = "Banco de Dados";
 		estudante2.data_nascimento = "2005-03-02";
 
-        System.out.println("[Estudante] " + estudante.instutuicao_ensino);
+        System.out.println("[Estudante] " + estudante.instituicao_ensino);
         System.out.println("[Estudante2] " + estudante2.materia_preferida);
 
         System.out.print("[Estudante] ");

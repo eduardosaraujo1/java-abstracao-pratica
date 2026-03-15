@@ -14,7 +14,7 @@ MÉTODOS
 public class Estudante {
     //ATRIBUTOS
     public String nome;
-    public String instutuicao_ensino;
+    public String instituicao_ensino;
     public String turma;
     public String materia_preferida;
     public String data_nascimento; // formato 'yyyy-mm-dd'
