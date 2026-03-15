@@ -131,7 +131,7 @@ public class Main {
 		ator2.papeis_previos = new String[] {"Platão", "Socrates"};
 
         System.out.println("[Ator] " + ator.drt);
-        System.out.println("[Ator2] " + ator.idade);
+        System.out.println("[Ator2] " + ator2.idade);
 
         System.out.print("[Ator] ");
 		ator.chorar();
