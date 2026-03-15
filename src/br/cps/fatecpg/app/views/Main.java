@@ -179,8 +179,8 @@ public class Main {
 		cantor2.instrumentos = new String[]{"Guitarra", "Teclado"};
 		cantor2.em_banda = true;
 
-        System.out.println("[Cantor] ");
-        System.out.println("[Cantor2] ");
+        System.out.println("[Cantor] " + cantor.nome);
+        System.out.println("[Cantor2] " + cantor2.generos[0]);
 
         System.out.print("[Cantor] ");
 		cantor.darAutografo();
@@ -215,7 +215,12 @@ public class Main {
 		    "Modelos matemáticos de partículas subatômicas"
 		};
 
+        System.out.println("[Cientista] " + cientista.nome);
+        System.out.println("[Cientista2] " + cientista2.especialidade);
+
+        System.out.print("[Cientista] ");
 		cientista.coletarAmostras();
+        System.out.print("[Cientista2] ");
 		cientista2.realizarPesquisar();
 	}
 
@@ -241,7 +246,12 @@ public class Main {
 		};
 		engenheiro2.nivel_de_graduacao = "Doutorado";
 
+        System.out.println("[Engenheiro] " + engenheiro.nome);
+        System.out.println("[Engenheiro2] " + engenheiro2.especialidade);
+
+        System.out.print("[Engenheiro] ");
 		engenheiro.fiscalizarProjeto();
+        System.out.print("[Engenheiro2] ");
 		engenheiro2.emitirLaudoTecnico();
 	}
 
@@ -251,7 +261,7 @@ public class Main {
 		estudante.nome = "Lucas Andrade";
 		estudante.instutuicao_ensino = "FATEC";
 		estudante.turma = "ADS 3º semestre";
-		estudante.materia_preferida = "Programação Orientada a Objetos";
+		estudante.materia_preferida = "Técnicas de Programação";
 		estudante.data_nascimento = "2004-08-15";
 
 		Estudante estudante2 = new Estudante();
@@ -261,7 +271,12 @@ public class Main {
 		estudante2.materia_preferida = "Banco de Dados";
 		estudante2.data_nascimento = "2005-03-02";
 
+        System.out.println("[Estudante] " + estudante.instutuicao_ensino);
+        System.out.println("[Estudante2] " + estudante2.materia_preferida);
+
+        System.out.print("[Estudante] ");
 		estudante.escrever("Classe: modelo lógico conceitual que representa uma entidade do mundo real.");
+        System.out.print("[Estudante2] ");
 		estudante2.conversar();
 	}
 
@@ -290,7 +305,12 @@ public class Main {
 		fotografo2.localizacao = "Curitiba";
 		fotografo2.contato = "ana.nature@email.com";
 
+        System.out.println("[Fotografo] " + fotografo.idade);
+        System.out.println("[Fotografo2] " + fotografo2.equipamentos[0]);
+
+        System.out.print("[Fotografo] ");
 		fotografo.calcularOrcamento();
+        System.out.print("[Fotografo2] ");
 		fotografo2.editarFotos();
 	}
 
@@ -316,7 +336,12 @@ public class Main {
 		jornalista2.email = "larissa@technews.com";
 		jornalista2.telefone = "11888888888";
 
+        System.out.println("[Jornalista] " + jornalista.area_atuacao);
+        System.out.println("[Jornalista2] " + jornalista2.cargo);
+
+        System.out.print("[Jornalista] ");
 		jornalista.apurarNoticias();
+        System.out.print("[Jornalista2] ");
 		jornalista2.entrevistarFontes();
 	}
 
@@ -336,7 +361,12 @@ public class Main {
 		juiz2.anos_de_magistratura = 20;
 		juiz2.status_tribunal = "Ativo";
 
+        System.out.println("[Juiz] " + juiz.nome);
+        System.out.println("[Juiz2] " + juiz2.anos_de_magistratura);
+
+        System.out.print("[Juiz] ");
 		juiz.presidirJulgamento();
+        System.out.print("[Juiz2] ");
 		juiz2.analisarProvas();
 	}
 
@@ -354,7 +384,12 @@ public class Main {
 		medico2.especialidade = "Neurologia";
 		medico2.hospital_atual = "Hospital Albert Einstein";
 
+        System.out.println("[Medico] " + medico.nome);
+        System.out.println("[Medico2] " + medico2.crm);
+
+        System.out.print("[Medico] ");
 		medico.diagnosticar();
+        System.out.print("[Medico2] ");
 		medico2.requisitarExame();
 	}
 
@@ -374,7 +409,12 @@ public class Main {
 		motorista2.veiculo = "Carro particular";
 		motorista2.anos_experiencia = 15;
 
+        System.out.println("[Motorista] " + motorista.veiculo);
+        System.out.println("[Motorista2] " + motorista2.veiculo);
+
+        System.out.print("[Motorista] ");
 		motorista.abastecer(16);
+        System.out.print("[Motorista2] ");
 		motorista2.estacionar();
 	}
 
@@ -396,7 +436,12 @@ public class Main {
 		piloto2.companhia_aerea = "Azul";
 		piloto2.aeronave_atual = "Embraer E195";
 
+        System.out.println("[Piloto] " + piloto.idade);
+        System.out.println("[Piloto2] " + piloto2.horas_de_voo);
+
+        System.out.print("[Piloto] ");
 		piloto.ajustarRota();
+        System.out.print("[Piloto2] ");
 		piloto2.comunicarTorre();
 	}
 
@@ -422,7 +467,12 @@ public class Main {
 		};
 		pintor2.formacao = "Artes Visuais";
 
+        System.out.println("[Pintor] " + pintor.nome);
+        System.out.println("[Pintor2] " + pintor2.formacao);
+
+        System.out.print("[Pintor] ");
 		pintor.pintar();
+        System.out.print("[Pintor2] ");
 		pintor2.publicarArte();
 	}
 
@@ -442,7 +492,13 @@ public class Main {
 		policial2.arma = "Fuzil";
 		policial2.anos_de_servico = 7;
 
+        System.out.println("[Policial] " + policial.arma);
+        System.out.println("[Policial2] " + policial2.nome);
+
+
+        System.out.print("[Policial] ");
 		policial.prenderSuspeito();
+        System.out.print("[Policial2] ");
 		policial2.patrulhar();
 	}
 
@@ -468,7 +524,12 @@ public class Main {
 		politico2.status_mandato = "Ativo";
 		politico2.cidade_estado = "São Paulo/SP";
 
+        System.out.println("[Politico] " + politico.cargo);
+        System.out.println("[Politico2] " + politico2.status_mandato);
+
+        System.out.print("[Politico] ");
 		politico.atenderCidadao("Eduardo Soares e Araújo");
+        System.out.print("[Politico2] ");
 		politico2.participarSessao();
 	}
 
@@ -488,7 +549,12 @@ public class Main {
 		professor2.situacao_trabalho = "Efetivo";
 		professor2.tempo_de_carreira = 12;
 
+        System.out.println("[Professor] " + professor.salario);
+        System.out.println("[Professor2] " + professor2.situacao_trabalho);
+
+        System.out.print("[Professor] ");
 		professor.prepararAula();
+        System.out.print("[Professor2] ");
 		professor2.prepararProva();
 	}
 
@@ -508,7 +574,12 @@ public class Main {
 		programador2.paradigma_favorito = "Funcional";
 		programador2.cargo = "Desenvolvedora Frontend";
 
+        System.out.println("[Programador] " + programador.area_atuacao);
+        System.out.println("[Programador2] " + programador2.especialidades);
+
+        System.out.print("[Programador] ");
 		programador.escreverCodigo();
+        System.out.print("[Programador2] ");
 		programador2.completarTask();
 	}
 
