@@ -117,12 +117,14 @@ public class Main {
 	public static void exemploAtor() {
 		// Ator
 		Ator ator = new Ator();
+		ator.nome = "Leonardo DiCaprio";
 		ator.drt = "93212367312";
 		ator.idade = 26;
 		ator.idiomas_fluentes = new String[]{"Inglês", "Francês"};
 		ator.papeis_previos = new String[] {"Hamlet", "O selvagem"};
 
 		Ator ator2 = new Ator();
+		ator2.nome = "Johnny Depp";
 		ator2.drt = "82101256201";
 		ator2.idade = 60;
 		ator2.idiomas_fluentes = new String[]{"Inglês", "Português"};
